@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#8000"
+    android:layout_margin="15dp">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lifeSuggest"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:layout_margin="8dp"/>
+
+    <TextView
+        android:id="@+id/Comfortable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Comfortable"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:layout_margin="8dp"/>
+
+    <TextView
+        android:id="@+id/WashCar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/WashCar"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:layout_margin="8dp"/>
+
+    <TextView
+        android:id="@+id/Sport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Sport"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:layout_margin="8dp"/>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<litepal>
+
+    <dbname value="cool_weather"/>
+    --版本不能低于1
+    <version value="1"/>
+    <list>
+        --命名空间要与本地一致：com.example.weather   --具体可在依赖里查询applicationId--
+        <mapping class="com.example.weather.db.Province"/>
+        <mapping class="com.example.weather.db.City"/>
+        <mapping class="com.example.weather.db.County"/>
+    </list>
+</litepal>

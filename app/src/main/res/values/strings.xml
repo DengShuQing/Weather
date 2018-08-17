@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">云天气</string>
+    <string name="city_name">地区名称</string>
+    <string name="no">NULL</string>
+    <string name="lifeSuggest">生活建议</string>
+    <string name="Comfortable">舒适度</string>
+    <string name="WashCar">洗车</string>
+    <string name="Sport">运动</string>
+    <string name="Temperature">气温</string>
+    <string name="Situation">天气情况</string>
+    <string name="Time">sj</string>
+</resources>

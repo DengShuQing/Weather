@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Temperature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="end|center"
+        android:textSize="60sp"
+        android:lines="1"
+        android:textColor="#fff"
+        android:text="@string/Temperature" />
+
+    <TextView
+        android:id="@+id/Cloud_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="end|center"
+        android:textSize="20sp"
+        android:lines="1"
+        android:textColor="#fff"
+        android:text="@string/Situation" />
+</LinearLayout>
