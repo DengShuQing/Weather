@@ -1,14 +1,11 @@
 package com.example.weather.util;
 
 import android.text.TextUtils;
-import android.util.Log;
-
 import com.example.weather.db.City;
 import com.example.weather.db.County;
 import com.example.weather.db.Province;
 import com.example.weather.gson.Weather;
 import com.google.gson.Gson;
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -19,7 +16,6 @@ public class Utility {
      * 解析和处理服务器放回的省级数据
      */
     public static boolean handleProvinceResponse(String response) throws JSONException {
-        Log.i("省数据", response);
         if(!TextUtils.isEmpty(response)){
             JSONArray allProvince=new JSONArray(response);
             for(int i=0;i<allProvince.length();i++){

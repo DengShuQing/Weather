@@ -25,6 +25,8 @@ import org.litepal.LitePal;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
+
 import okhttp3.Call;
 import okhttp3.Callback;
 import okhttp3.Response;
@@ -106,7 +108,7 @@ public class ChooseAreaFragment extends Fragment {
                         WeatherActivity activity=(WeatherActivity)getActivity();
                         activity.drawerLayout.closeDrawers();
                         activity.swipeRefreshLayout.setRefreshing(true);
-                        activity.requestWeater(WeatherId);
+                        activity.requestWeather(WeatherId);
                     }
                 }
             }
@@ -216,7 +218,7 @@ public class ChooseAreaFragment extends Fragment {
 
             @Override
             public void onResponse(@NonNull Call call, @NonNull Response response) throws IOException {
-                String responseText=response.body().string();
+                String responseText= Objects.requireNonNull(response.body()).string();
                 boolean result=false;
                 try {
                     if ("province".equals(type)) {
